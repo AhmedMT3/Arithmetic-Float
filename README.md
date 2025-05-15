@@ -1,19 +1,28 @@
 # Arithmetic Compression and Decompression Program
 
-## Overview
+📄 Simple tool for compressing and decompressing text files using **Arithmetic Coding**.
 
-This program implements arithmetic compression and decompression for text files. It includes a GUI interface, command-line interaction, and supports saving compressed files and restoring them back to their original form.
+## Features 🌟
 
-### Features:
+<table>
+  <tr>
+    <td>
+      <ul>
+        <li>🧠 <strong>Smart Compression:</strong> Uses Arithmetic Coding to shrink text files based on character frequency.</li>
+        <li>📦 <strong>Decompression:</strong> Restores original files perfectly from <code>.arf</code> compressed files.</li>
+        <li>🖼️ <strong>GUI Mode:</strong> Simple drag-and-drop interface using Tkinter.</li>
+        <li>💻 <strong>CLI Mode:</strong> Terminal-based tool for quick compression & testing.</li>
+        <li>📁 <strong>File Support:</strong> Works with any <code>.txt</code> files inside the <code>Playground/</code> folder.</li>
+      </ul>
+    </td>
+     <td>
+      <img alt="Screenshot" src="assets/Screenshot.png" width="450"/>
+    </td>
+  </tr>
+</table>
 
-1. **Arithmetic Compression Algorithm:** Efficiently compresses text files using probabilities of character occurrence.
-2. **Decompression Support:** Reconstructs the original file from compressed data.
-3. **GUI Interface:** A user-friendly interface built with `Tkinter` for compression and decompression tasks.
-4. **Command-Line Utility:** For users who prefer terminal-based interaction.
 
----
-
-## Installation
+## Installation ⬇️
 
 1. Clone the repository:
 
